@@ -27,4 +27,6 @@ public class Employee {
     @Column(unique = true)
     private String empEmailId;
 
+    private String empPassword;
+
 }

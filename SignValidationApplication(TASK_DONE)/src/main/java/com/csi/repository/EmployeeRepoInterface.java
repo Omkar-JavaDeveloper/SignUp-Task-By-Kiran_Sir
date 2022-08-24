@@ -8,5 +8,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface EmployeeRepoInterface extends JpaRepository<Employee,Integer> {
 
+
+
     // custom methods if required!!
 }
